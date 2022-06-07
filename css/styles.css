@@ -1,0 +1,126 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-size: 1500px 300px;
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.main-container {
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+  display: inline-block;
+  width: 29.6%;
+  background-color: hsl(225, 100%, 98%);
+
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan {
+  position: relative;
+  display: inline-block;
+  width:69%;
+  height: 70px;
+  margin: auto;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 5% 5% 4% 4%;
+  background-color: hsl(225, 100%, 90%);
+  padding: 10px;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 90px 10px 90px;
+
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7900FF;
+  text-decoration: none;
+}
+.button{
+  display: inline-block;
+  margin: 20px auto 0;
+  position: relative;
+  bottom: 1rem;
+  width: 90%;
+
+}
+.cancel{
+  margin: 10px auto 40px;
+
+}
+.cancel-link{
+  text-decoration: none;
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+.cancel-link:hover{
+  font-weight: 900;
+color: black;
+}
+.body-text{
+  width: 90%;
+  margin-top: 0px;
+  margin-bottom:  0px;
+}
+
+.img {
+  border-radius: 7.19% 7.19% 0 0;
+  margin-top: 0px;
+
+  width: 100%;
+
+
+}
+
+.music {
+  float: left;
+  margin-top: 0.7rem;
+  margin-right: 15px;
+
+}
+.p-text{
+  position: relative;
+  bottom: 2rem;
+
+}
+.change{
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  font-size: 12px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+}
+.change:hover{
+  color:#7900FF;
+  text-decoration: none;
+}
+.second{
+  font-size: 16px;
+}
